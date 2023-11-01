@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <style>
+   body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hero Section */
+header {
+  background-color: #f2f2f2;
+  padding: 50px;
+  text-align: center;
+}
+
+/* About Me Section */
+#about {
+  padding: 50px;
+  text-align: center;
+}
+ #Language{text-align:center;}
+ .Language-list li{list-style:none;}
+/* Skills Section */
+#skills {
+  padding: 50px;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.skills-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills-list li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+
+/* Contact Section */
+#contact {
+  padding: 50px;
+  text-align: center;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact-form label {
+  margin-bottom: 10px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+#contact-form button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+   </style>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">ℂℍ𝔼ℝ𝔸ℕ</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#Language">Language</a></li>
+            <li><a href="#skills">Skills</a></li>
+         
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Welcome to My profile</h1>
+        <p>A showcase of my skills</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <p>Iam stading in 3rd B.sc computer science this course was iam very intrested so this corce was iam selecet am intest IT  so this corce was very important.</p>
+        </div>
+    </section>
+    <section id="Language">
+    <h2>Language</h2>
+        <ul class="Language-list">
+        <li>tamil</li>
+        <li>english</li>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+        <li>c</li>
+        <li>cpp</li>
+        <li>java</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="    email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 cheran</p>
+    </footer>
+</body>
+</html>
